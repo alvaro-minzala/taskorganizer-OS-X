@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		388F2CE6269F456200587904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388F2CE5269F456200587904 /* AppDelegate.swift */; };
+		388F2CE8269F456200587904 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388F2CE7269F456200587904 /* ViewController.swift */; };
+		388F2CEA269F456200587904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388F2CE9269F456200587904 /* Assets.xcassets */; };
+		388F2CED269F456200587904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388F2CEB269F456200587904 /* Main.storyboard */; };
+		388F2CF8269F456300587904 /* TaskOrganizer_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388F2CF7269F456300587904 /* TaskOrganizer_OSXTests.swift */; };
+		388F2D03269F456300587904 /* TaskOrganizer_OSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388F2D02269F456300587904 /* TaskOrganizer_OSXUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		388F2CF4269F456300587904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388F2CDA269F456200587904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 388F2CE1269F456200587904;
+			remoteInfo = "TaskOrganizer-OSX";
+		};
+		388F2CFF269F456300587904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388F2CDA269F456200587904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 388F2CE1269F456200587904;
+			remoteInfo = "TaskOrganizer-OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		388F2CE2269F456200587904 /* TaskOrganizer-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TaskOrganizer-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		388F2CE5269F456200587904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		388F2CE7269F456200587904 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		388F2CE9269F456200587904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		388F2CEC269F456200587904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		388F2CEE269F456200587904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388F2CF3269F456300587904 /* TaskOrganizer-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TaskOrganizer-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		388F2CF7269F456300587904 /* TaskOrganizer_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskOrganizer_OSXTests.swift; sourceTree = "<group>"; };
+		388F2CF9269F456300587904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388F2CFE269F456300587904 /* TaskOrganizer-OSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TaskOrganizer-OSXUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		388F2D02269F456300587904 /* TaskOrganizer_OSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskOrganizer_OSXUITests.swift; sourceTree = "<group>"; };
+		388F2D04269F456300587904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		388F2CDF269F456200587904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388F2CF0269F456300587904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388F2CFB269F456300587904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		388F2CD9269F456200587904 = {
+			isa = PBXGroup;
+			children = (
+				388F2CE4269F456200587904 /* TaskOrganizer-OSX */,
+				388F2CF6269F456300587904 /* TaskOrganizer-OSXTests */,
+				388F2D01269F456300587904 /* TaskOrganizer-OSXUITests */,
+				388F2CE3269F456200587904 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		388F2CE3269F456200587904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				388F2CE2269F456200587904 /* TaskOrganizer-OSX.app */,
+				388F2CF3269F456300587904 /* TaskOrganizer-OSXTests.xctest */,
+				388F2CFE269F456300587904 /* TaskOrganizer-OSXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		388F2CE4269F456200587904 /* TaskOrganizer-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				388F2CE5269F456200587904 /* AppDelegate.swift */,
+				388F2CE7269F456200587904 /* ViewController.swift */,
+				388F2CE9269F456200587904 /* Assets.xcassets */,
+				388F2CEB269F456200587904 /* Main.storyboard */,
+				388F2CEE269F456200587904 /* Info.plist */,
+			);
+			path = "TaskOrganizer-OSX";
+			sourceTree = "<group>";
+		};
+		388F2CF6269F456300587904 /* TaskOrganizer-OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				388F2CF7269F456300587904 /* TaskOrganizer_OSXTests.swift */,
+				388F2CF9269F456300587904 /* Info.plist */,
+			);
+			path = "TaskOrganizer-OSXTests";
+			sourceTree = "<group>";
+		};
+		388F2D01269F456300587904 /* TaskOrganizer-OSXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				388F2D02269F456300587904 /* TaskOrganizer_OSXUITests.swift */,
+				388F2D04269F456300587904 /* Info.plist */,
+			);
+			path = "TaskOrganizer-OSXUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		388F2CE1269F456200587904 /* TaskOrganizer-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388F2D07269F456300587904 /* Build configuration list for PBXNativeTarget "TaskOrganizer-OSX" */;
+			buildPhases = (
+				388F2CDE269F456200587904 /* Sources */,
+				388F2CDF269F456200587904 /* Frameworks */,
+				388F2CE0269F456200587904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TaskOrganizer-OSX";
+			productName = "TaskOrganizer-OSX";
+			productReference = 388F2CE2269F456200587904 /* TaskOrganizer-OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		388F2CF2269F456300587904 /* TaskOrganizer-OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388F2D0A269F456300587904 /* Build configuration list for PBXNativeTarget "TaskOrganizer-OSXTests" */;
+			buildPhases = (
+				388F2CEF269F456300587904 /* Sources */,
+				388F2CF0269F456300587904 /* Frameworks */,
+				388F2CF1269F456300587904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				388F2CF5269F456300587904 /* PBXTargetDependency */,
+			);
+			name = "TaskOrganizer-OSXTests";
+			productName = "TaskOrganizer-OSXTests";
+			productReference = 388F2CF3269F456300587904 /* TaskOrganizer-OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		388F2CFD269F456300587904 /* TaskOrganizer-OSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388F2D0D269F456300587904 /* Build configuration list for PBXNativeTarget "TaskOrganizer-OSXUITests" */;
+			buildPhases = (
+				388F2CFA269F456300587904 /* Sources */,
+				388F2CFB269F456300587904 /* Frameworks */,
+				388F2CFC269F456300587904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				388F2D00269F456300587904 /* PBXTargetDependency */,
+			);
+			name = "TaskOrganizer-OSXUITests";
+			productName = "TaskOrganizer-OSXUITests";
+			productReference = 388F2CFE269F456300587904 /* TaskOrganizer-OSXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		388F2CDA269F456200587904 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "alvaro-minzala";
+				TargetAttributes = {
+					388F2CE1269F456200587904 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MXXAR535S4;
+						ProvisioningStyle = Automatic;
+					};
+					388F2CF2269F456300587904 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MXXAR535S4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 388F2CE1269F456200587904;
+					};
+					388F2CFD269F456300587904 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MXXAR535S4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 388F2CE1269F456200587904;
+					};
+				};
+			};
+			buildConfigurationList = 388F2CDD269F456200587904 /* Build configuration list for PBXProject "TaskOrganizer-OSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 388F2CD9269F456200587904;
+			productRefGroup = 388F2CE3269F456200587904 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				388F2CE1269F456200587904 /* TaskOrganizer-OSX */,
+				388F2CF2269F456300587904 /* TaskOrganizer-OSXTests */,
+				388F2CFD269F456300587904 /* TaskOrganizer-OSXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		388F2CE0269F456200587904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388F2CEA269F456200587904 /* Assets.xcassets in Resources */,
+				388F2CED269F456200587904 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388F2CF1269F456300587904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388F2CFC269F456300587904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		388F2CDE269F456200587904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388F2CE8269F456200587904 /* ViewController.swift in Sources */,
+				388F2CE6269F456200587904 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388F2CEF269F456300587904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388F2CF8269F456300587904 /* TaskOrganizer_OSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388F2CFA269F456300587904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388F2D03269F456300587904 /* TaskOrganizer_OSXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		388F2CF5269F456300587904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 388F2CE1269F456200587904 /* TaskOrganizer-OSX */;
+			targetProxy = 388F2CF4269F456300587904 /* PBXContainerItemProxy */;
+		};
+		388F2D00269F456300587904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 388F2CE1269F456200587904 /* TaskOrganizer-OSX */;
+			targetProxy = 388F2CFF269F456300587904 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		388F2CEB269F456200587904 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388F2CEC269F456200587904 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		388F2D05269F456300587904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		388F2D06269F456300587904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		388F2D08269F456300587904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MXXAR535S4;
+				INFOPLIST_FILE = "TaskOrganizer-OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.alvarominzala.TaskOrganizer-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		388F2D09269F456300587904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MXXAR535S4;
+				INFOPLIST_FILE = "TaskOrganizer-OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.alvarominzala.TaskOrganizer-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		388F2D0B269F456300587904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MXXAR535S4;
+				INFOPLIST_FILE = "TaskOrganizer-OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.alvarominzala.TaskOrganizer-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskOrganizer-OSX.app/Contents/MacOS/TaskOrganizer-OSX";
+			};
+			name = Debug;
+		};
+		388F2D0C269F456300587904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MXXAR535S4;
+				INFOPLIST_FILE = "TaskOrganizer-OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.alvarominzala.TaskOrganizer-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskOrganizer-OSX.app/Contents/MacOS/TaskOrganizer-OSX";
+			};
+			name = Release;
+		};
+		388F2D0E269F456300587904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MXXAR535S4;
+				INFOPLIST_FILE = "TaskOrganizer-OSXUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.alvarominzala.TaskOrganizer-OSXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "TaskOrganizer-OSX";
+			};
+			name = Debug;
+		};
+		388F2D0F269F456300587904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MXXAR535S4;
+				INFOPLIST_FILE = "TaskOrganizer-OSXUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.alvarominzala.TaskOrganizer-OSXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "TaskOrganizer-OSX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		388F2CDD269F456200587904 /* Build configuration list for PBXProject "TaskOrganizer-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388F2D05269F456300587904 /* Debug */,
+				388F2D06269F456300587904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388F2D07269F456300587904 /* Build configuration list for PBXNativeTarget "TaskOrganizer-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388F2D08269F456300587904 /* Debug */,
+				388F2D09269F456300587904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		388F2D0A269F456300587904 /* Build configuration list for PBXNativeTarget "TaskOrganizer-OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388F2D0B269F456300587904 /* Debug */,
+				388F2D0C269F456300587904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		388F2D0D269F456300587904 /* Build configuration list for PBXNativeTarget "TaskOrganizer-OSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388F2D0E269F456300587904 /* Debug */,
+				388F2D0F269F456300587904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 388F2CDA269F456200587904 /* Project object */;
+}
